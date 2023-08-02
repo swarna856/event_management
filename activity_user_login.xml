@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/youth">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="139dp"
+        android:layout_height="108dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginEnd="138dp"
+        android:layout_marginBottom="575dp"
+        app:srcCompat="@drawable/atria_logo" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="426dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="182dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="123dp"
+        android:background="#8CF4D6DC"
+        android:fadingEdgeLength="40dp"
+        android:filterTouchesWhenObscured="false"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="490dp"
+        android:fontFamily="casual"
+        android:text="Login "
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/DarkRed"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="430dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="Enter EMAIL"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/DarkRed"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="346dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="175dp"
+        android:layout_height="72dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="218dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:fontFamily="casual"
+        android:text="Login"
+        android:textColor="@color/DarkRed"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="175dp"
+        android:layout_height="72dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="134dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:fontFamily="casual"
+        android:text="Forgot Password?"
+        android:textColor="@color/DarkRed"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/userback">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="304dp"
+        android:layout_height="92dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="447dp"
+        android:fontFamily="casual"
+        android:text="USER PANEL"
+        android:textAlignment="center"
+        android:textColor="@color/DarkRed"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="245dp"
+        android:layout_height="120dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="310dp"
+        android:fontFamily="casual"
+        android:text="View All Events"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:backgroundTint="#BE7CDA" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="168dp"
+        android:layout_height="120dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="584dp"
+        app:srcCompat="@drawable/atria_logo" />
+
+</RelativeLayout>

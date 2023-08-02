@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/football">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="29dp"
+        android:background="#8CF4D6DC"
+        android:fadingEdgeLength="40dp"
+        android:filterTouchesWhenObscured="false"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        android:visibility="visible" />
+
+
+    <EditText
+        android:id="@+id/ev1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="517dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:inputType="text"
+        android:text="Team-Name"
+        android:textColor="@color/DarkRed" />
+
+    <EditText
+        android:id="@+id/ev3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="387dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:inputType="text"
+        android:text="Leader of the Team(if any)"
+        android:textColor="@color/DarkRed" />
+
+    <EditText
+        android:id="@+id/ev4"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="322dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:inputType="phone"
+        android:text="Contact Phone number"
+        android:textColor="@color/DarkRed" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="35dp"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="347dp"
+        android:layout_marginBottom="523dp"
+        app:srcCompat="@drawable/baseline_supervisor_account_24" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="81dp"
+        android:layout_height="57dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="168dp"
+        android:layout_marginBottom="655dp"
+        app:srcCompat="@drawable/atria_logo" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="322dp"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="580dp"
+        android:fontFamily="casual"
+        android:text="REGISTER"
+        android:textAlignment="center"
+        android:textColor="@color/DarkRed"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/ev2"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="455dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="Enter Team Members"
+        android:textColor="@color/DarkRed" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="245dp"
+        android:layout_height="37dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="282dp"
+        android:fontFamily="monospace"
+        android:text="Scan this QR Code to pay the Registeration Fee"
+        android:textColor="@color/DarkRed"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="218dp"
+        android:layout_height="187dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="84dp"
+        app:srcCompat="@drawable/qr_code" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="36dp"
+        android:layout_height="41dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="345dp"
+        android:layout_marginBottom="463dp"
+        app:srcCompat="@drawable/baseline_supervisor_account_24" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="338dp"
+        android:layout_marginBottom="396dp"
+        app:srcCompat="@drawable/baseline_person_24" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="38dp"
+        android:layout_height="42dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="340dp"
+        android:layout_marginBottom="324dp"
+        app:srcCompat="@drawable/baseline_phone_24" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="casual"
+        android:text="Done" />
+
+
+</RelativeLayout>

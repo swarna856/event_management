@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/home">
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="372dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="85dp"
+            android:layout_marginEnd="18dp"
+            android:fontFamily="casual"
+            android:text="EXSITING EVENTS"
+            android:textAlignment="center"
+            android:textColor="@color/DarkRed"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="139dp"
+            android:layout_height="72dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="135dp"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/atria_logo" />
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/materialToolbar2"
+            android:layout_width="378dp"
+            android:layout_height="107dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="168dp"
+            android:layout_marginEnd="20dp"
+            android:background="#C2DFEF"
+            android:clickable="true"
+
+            android:contentDescription="@string/app_name"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="256dp"
+            android:layout_height="99dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="172dp"
+            android:layout_marginEnd="141dp"
+            android:fontFamily="casual"
+            android:text="EVENT NAME:Rhythm and Revelry\nEvent Date:12/7/23\nRegistration fee:250/-\nMaximum participants:4"
+            android:textColor="@color/DarkRed"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="114dp"
+            android:layout_height="77dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="183dp"
+            android:layout_marginEnd="29dp"
+            app:srcCompat="@drawable/dance" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="273dp"
+            android:layout_marginEnd="39dp"
+            android:fontFamily="casual"
+            android:shadowColor="#833030"
+            android:text="Register" />
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/materialToolbar3"
+            android:layout_width="378dp"
+            android:layout_height="107dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="322dp"
+            android:layout_marginEnd="19dp"
+            android:background="#C2DFEF"
+            android:clickable="true"
+
+            android:contentDescription="@string/app_name"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="340dp"
+            android:layout_height="109dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="327dp"
+            android:layout_marginEnd="58dp"
+            android:fontFamily="casual"
+            android:text="EVENT NAME:Whimsical Wonderland\nEvent Date:11/7/23\nRegistration fee:300/-\nMaximum participants:SOLO"
+            android:textColor="@color/DarkRed"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="114dp"
+            android:layout_height="77dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="336dp"
+            android:layout_marginEnd="13dp"
+            app:srcCompat="@drawable/whim" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="429dp"
+            android:layout_marginEnd="36dp"
+            android:drawableTint="#DAC2C2"
+            android:fontFamily="casual"
+            android:shadowColor="#833030"
+            android:text="Register" />
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/materialToolbar4"
+            android:layout_width="378dp"
+            android:layout_height="107dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="481dp"
+            android:layout_marginEnd="22dp"
+            android:background="#C2DFEF"
+            android:clickable="true"
+
+            android:contentDescription="@string/app_name"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="340dp"
+            android:layout_height="109dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="483dp"
+            android:layout_marginEnd="58dp"
+            android:fontFamily="casual"
+            android:text="EVENT NAME:Midnight Marvels\nEvent Date:12/7/23\nRegistration fee:300/-\nMaximum participants:2"
+            android:textColor="@color/DarkRed"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="114dp"
+            android:layout_height="77dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="493dp"
+            android:layout_marginEnd="15dp"
+            app:srcCompat="@drawable/midnight" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="597dp"
+            android:layout_marginEnd="30dp"
+            android:drawableTint="#DAC2C2"
+            android:fontFamily="casual"
+            android:shadowColor="#833030"
+            android:text="Register" />
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/materialToolbar5"
+            android:layout_width="378dp"
+            android:layout_height="107dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="651dp"
+            android:layout_marginEnd="22dp"
+            android:background="#C2DFEF"
+            android:clickable="true"
+
+            android:contentDescription="@string/app_name"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="340dp"
+            android:layout_height="109dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="655dp"
+            android:layout_marginEnd="56dp"
+            android:fontFamily="casual"
+            android:text="EVENT NAME:Curiosity Carnival\nEvent Date:11/7/23\nRegistration fee:350/-\nMaximum participants:-"
+            android:textColor="@color/DarkRed"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="114dp"
+            android:layout_height="77dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="665dp"
+            android:layout_marginEnd="24dp"
+            app:srcCompat="@drawable/curo" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="764dp"
+            android:layout_marginEnd="29dp"
+            android:drawableTint="#DAC2C2"
+            android:fontFamily="casual"
+            android:shadowColor="#833030"
+            android:text="Register" />
+
+
+    </RelativeLayout>
+</ScrollView>

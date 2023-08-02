@@ -1,0 +1,171 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical">
+
+    <RelativeLayout
+        android:layout_width="415dp"
+        android:layout_height="850dp"
+        android:orientation="vertical"
+        android:background="@drawable/back_addevent">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="116dp"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="casual"
+            android:text="ADD AN EVENT"
+            android:textAlignment="center"
+            android:textColor="@color/DarkRed"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupOptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="178dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical">
+
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/buttonSubmit"
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="701dp"
+            android:layout_marginEnd="83dp"
+            android:fontFamily="casual"
+            android:text="Submit"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="94dp"
+            tools:layout_editor_absoluteY="473dp" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="376dp"
+            android:layout_height="52dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="220dp"
+            android:layout_marginEnd="19dp"
+            android:drawableTint="#C61313"
+            android:fontFamily="casual"
+            android:hint="Enter the name of the event"
+            android:text="Enter the name of the event"
+            android:textAlignment="viewStart"
+            android:textColor="@color/DarkRed"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="89dp" />
+
+        <EditText
+            android:id="@+id/coname"
+            android:layout_width="372dp"
+            android:layout_height="57dp"
+            android:layout_alignParentTop="true"
+
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="297dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="casual"
+            android:hint="Co-Ordinator Name"
+            android:text="Co-Ordinator Name"
+            android:textColor="@color/DarkRed"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/date"
+            android:layout_width="371dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="376dp"
+            android:layout_marginEnd="21dp"
+            android:ems="10"
+            android:fontFamily="casual"
+            android:hint="Enter the date of the Event"
+            android:inputType="date"
+            android:text="Enter the date of the Event"
+            android:textAlignment="viewStart"
+            android:textColor="@color/DarkRed"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="163dp"
+            android:layout_height="97dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="135dp"
+            app:srcCompat="@drawable/atria_logo" />
+
+        <EditText
+            android:id="@+id/max"
+            android:layout_width="364dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="452dp"
+            android:layout_marginEnd="31dp"
+            android:ems="10"
+            android:fontFamily="casual"
+            android:hint="Enter maximum players that can players"
+            android:inputType="text"
+            android:text="Enter maximum players that can players"
+            android:textColor="@color/DarkRed"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/lastdate"
+            android:layout_width="364dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="521dp"
+            android:layout_marginEnd="28dp"
+            android:ems="10"
+            android:fontFamily="casual"
+            android:hint="Enter the last date to Register"
+            android:inputType="text"
+            android:text="Enter the last date to Register"
+            android:textColor="@color/DarkRed"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/desc"
+            android:layout_width="375dp"
+            android:layout_height="99dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="589dp"
+            android:layout_marginEnd="16dp"
+            android:ems="10"
+            android:fontFamily="casual"
+            android:hint="Description"
+            android:inputType="text"
+            android:singleLine="false"
+            android:text="Description"
+            android:textColor="@color/DarkRed"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+</ScrollView>
